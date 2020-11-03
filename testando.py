@@ -1,4 +1,3 @@
-hours_per_wk = 7*24
-print(hours_per_wk)
-
+aaa= 333
+print(aaa)
 
