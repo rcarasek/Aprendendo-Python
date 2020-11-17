@@ -1,14 +1,13 @@
-a = " Hello, World! "
+a = " He  l  lo, World! "
 b = a.strip()
 
 print(a)
 print(b)
 
-print(a[0])
-print(a[1])
+for i in a:
+    print(i)
 
-
-for i in len(a):
-    print(a[i])
+for i in b:
+    print(i)
 
 
