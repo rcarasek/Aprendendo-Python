@@ -1,4 +1,4 @@
-a = " He  l  lo, World! "
+a = "      He  l  lo, World!                "
 b = a.strip()
 
 print(a)
