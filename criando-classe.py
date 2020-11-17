@@ -5,7 +5,6 @@ class Pessoa:
         self.altura = altura
         self.peso = peso 
 
-p1 = Pessoa("RC",52,180,89)
+p1 = Pessoa("RC",52,180,89.5)
 
-print(p1.nome)
-print(p1)
+print(p1.nome, p1.idade, p1.altura)
