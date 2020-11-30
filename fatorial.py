@@ -1,8 +1,16 @@
 def fatorial(num):
-    if not ((num >= 0) & (num % 1 == 0)):
-        raise Exception(
-            f"Number( {num} ) can't be floating point or negative ")
-    return 1 if num == 0 else num * fatorial(num - 1)
+    if (num < 1):
+        print("Não deu!!!")
+    else:
+        a = num - 1
+        fatorial = num
+        while a > 1:
+            fatorial = fatorial * a 
+            a = a - 1
+        print(fatorial)
 
-fatorial(6) # 720
+    return num 
 
+x = input('Fatorial de...?')
+x = int(x)
+fatorial(x)

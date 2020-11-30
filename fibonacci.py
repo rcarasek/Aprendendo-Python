@@ -13,4 +13,4 @@ def fibonacci(num):
 x = input('Quantos itens?')
 x = int(x)
 fibonacci(x)
-
+print(x)
