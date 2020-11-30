@@ -1,17 +1,13 @@
 def fibonacci(num):
-    primeiro = 0
-    segundo = 1
+    a = 0
     sequencia = [0, 1]
+    print(sequencia)
 
-    if num < 3:
-        print("nao deu !!!")
-    else:
-        proximo = primeiro + segundo
-        print(sequencia)
-        sequencia = sequencia + proximo
-        print(sequencia)
+    proximo = sequencia[a] + sequencia[a + 1]
+    sequencia.append(proximo)
+    print(sequencia)
 
-        primeiro = segundo
+    primeiro = segundo
         segundo = proximo
 
     return sequencia
