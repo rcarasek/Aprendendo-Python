@@ -7,8 +7,7 @@ def fibonacci(num):
     sequencia.append(proximo)
     print(sequencia)
 
-    primeiro = segundo
-        segundo = proximo
+    a = a + 1
 
     return sequencia
 
