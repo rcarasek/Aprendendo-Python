@@ -10,4 +10,7 @@ def fibonacci(num):
 
     return sequencia
 
-fibonacci(6)  # [0, 1, 1, 2, 3, 5]
+x = input('Quantos itens?')
+x = int(x)
+fibonacci(x)
+
